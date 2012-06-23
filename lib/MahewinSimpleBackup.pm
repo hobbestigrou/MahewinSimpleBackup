@@ -4,12 +4,13 @@ use Moose;
 
 with 'MooseX::Getopt';
 
-use POSIX qw(strftime);
-use Net::SCP;
-use Archive::Tar;
-use Path::Class;
 use File::Path qw(remove_tree);
 use File::Spec;
+use POSIX qw(strftime);
+
+use Archive::Tar;
+use Path::Class;
+use Net::SCP;
 
 has username => (
     is            => 'ro',
