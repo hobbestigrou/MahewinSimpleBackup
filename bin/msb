@@ -1,0 +1,9 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+use MahewinSimpleBackup;
+
+my $app = MahewinSimpleBackup->new_with_options;
+$app->run;
