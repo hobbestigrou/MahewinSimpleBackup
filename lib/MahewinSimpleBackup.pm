@@ -1,5 +1,7 @@
 package MahewinSimpleBackup;
 
+#ABSTRACT: A very simple backup tools
+
 use Moose;
 
 with 'MooseX::Getopt';
